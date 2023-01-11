@@ -22,7 +22,7 @@ const countLetters = function(str) {
     n: 0,
   }
   for (let letter of lowerCaseStr) {
-    //if we see 'a', aCount++
+    
 	  if (letter === 'l') {
 	    letterCount.l++;}
 		if (letter === 'i') {
