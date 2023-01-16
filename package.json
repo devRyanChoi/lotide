@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@mingun/lotide",
   "version": "1.0.0",
   "description": "",
   "main": "assertArraysEqual.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/devRyanChoi/lotide.git"
   },
-  "author": "",
+  "author": "Ryan Mingun Choi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devRyanChoi/lotide/issues"
@@ -22,5 +22,8 @@
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^9.2.2"
+  },
+  "dependencies": {
+    "my-package": "*"
   }
 }
