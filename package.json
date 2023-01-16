@@ -24,6 +24,6 @@
     "mocha": "^9.2.2"
   },
   "dependencies": {
-    "my-package": "*"
+    "my-package": "lotide"
   }
 }
