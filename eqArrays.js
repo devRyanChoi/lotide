@@ -42,7 +42,7 @@ eqArrays(["1", "2", "3"], ["1", "2", 3]) // => false
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 
-
+module.exports = eqArrays;
 
 
 /*
