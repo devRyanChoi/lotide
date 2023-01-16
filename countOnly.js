@@ -23,6 +23,8 @@ const countOnly = function(allItems, itemsToCount) {
 
 }
 
+
+
 const firstNames = [
   "Karl",
   "Salima",
@@ -41,3 +43,25 @@ assertEqual(result1["Jason"], 1);
 assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], 2);
 assertEqual(result1["Agouhanna"], undefined);
+
+/*
+const countOnly = function(allItems, itemsToCount) {
+  const result = {};
+
+  for ( const item of allItems) {
+
+    if( !itemsToCount[item]) {
+      continue;
+    } 
+
+    if (!result[item]) {
+      result[item] = 0;
+    }
+
+    //Happy Path
+    result[item]++;
+  }
+
+  return result;
+};
+*/

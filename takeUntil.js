@@ -50,3 +50,29 @@ console.log(results2);
 [ 1, 2, 5, 7, 2 ]
 --
 [ 'I\'ve', 'been', 'to', 'Hollywood' ]
+
+
+
+const takeUntil = function(array, callback) {
+  const results = [];
+
+
+  for (const item of array) {
+    
+    if(callback(item)) {
+      return results;
+    }
+
+    results.push(item);
+  }
+
+  return results;
+}
+
+// const myCallback = function(x) {
+//   return x > 3;
+// };
+
+const myCallback = (x) => {
+  return x > 3;
+};

@@ -51,8 +51,29 @@ const countLetters = function(str) {
 
 console.log(countLetters("lighthouse in the house"));
 
+/*
+const conutLetters = function() {
+  result = {}
 
+  for (const letter of str) {
+    if(letter === ' ') {
+      continue;
+    }
+    
+    if(!result[letter]) {
+      result[letter] = 0;
+    }
+    
+    result[letter]++
+  }
 
+  return result;
+};
+
+const result = countLetters("Hello World");
+console.log(result);
+
+*/
 
 
 
